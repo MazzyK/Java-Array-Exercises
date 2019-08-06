@@ -5,7 +5,9 @@
     *************************************************************************/
     import java.util.Scanner;
     import java.util.Arrays;
+
     public class rotatearray {
+        
       public static void main(String[] args) {
         
         int[] res = getInfo(); //save the array size and position input by the user in the res array
@@ -26,8 +28,8 @@
         
       }
       
-      //a method to prompt the user for the array length and shift position
       
+      //a method to prompt the user for the array length and shift position
       public static int[] getInfo() {
         
         Scanner usrInput = new Scanner(System.in);  // Create a Scanner object
